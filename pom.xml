@@ -167,7 +167,7 @@
         <log4j.version>2.5</log4j.version>
 
 
-        <falcon.version></falcon.version>
+        <falcon.version>0.9</falcon.version>
 
         <project.build.outputEncoding>UTF-8</project.build.outputEncoding>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -191,6 +191,20 @@
             <artifactId>log4j-core</artifactId>
             <version>${log4j.version}</version>
         </dependency>
+
+        <!-- ========================================== Apache Falcon ==================================================================== -->
+        <dependency>
+            <groupId>org.apache.falcon</groupId>
+            <artifactId>falcon-cli</artifactId>
+            <version>${falcon.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.falcon</groupId>
+            <artifactId>falcon-client</artifactId>
+            <version>${falcon.version}</version>
+        </dependency>
+
+
 
 
     </dependencies>
